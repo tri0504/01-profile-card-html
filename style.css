@@ -1,0 +1,76 @@
+/* Body Styling */
+/* Sets the page background color to light blue */
+/* Uses flexbox to center the card both horizontally and vertically on the page */
+/* Sets the page to take up at least the full viewport height */
+/* Removes default margin to eliminate gaps around the edges */
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Card Container Styling */
+/* Creates a white background card to hold the profile content */
+/* Adds a 3px dark blue border around the card for definition */
+/* border-radius creates rounded corners for a modern look */
+/* Padding adds internal space between the content and the card edges */
+/* max-width prevents the card from becoming too wide on large screens */
+.card {
+    background-color: white;
+    border: 3px solid darkblue;
+    border-radius: 8px;
+    padding: 40px;
+    max-width: 500px;
+}
+
+/* Main Heading (h1) Styling */
+/* Large font size (48px) makes the profile name stand out */
+/* Dark blue color matches the card border for visual cohesion */
+h1 {
+    font-size: 48px;
+    color: darkblue;
+}
+
+/* Subheading (h2) Styling */
+/* Medium font size (32px) is smaller than h1 but still prominent */
+/* Slate gray color provides a softer appearance than the main heading */
+h2 {
+    font-size: 32px;
+    color: slategray;
+}
+
+/* Paragraph Styling */
+/* 18px font size is easily readable for body text */
+/* line-height of 1.6 provides comfortable vertical spacing between lines */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Image Styling */
+/* max-width 100% ensures the image doesn't exceed the card width */
+/* height auto maintains the image's aspect ratio */
+img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    border-radius: 8px;
+}
+
+/* List Styling */
+/* Removes default bullet points */
+/* Adds spacing between list items */
+/* Removes default list padding */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 12px 0;
+}
